@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang ="en"
+
+<head>
+    <meta charset="UTF-8">
+    <title>Estructura de contenido</title>
+</head>
+
+
+<!--Una WEB se divide en 3 aspectos : header,contenido,pie pagina-->
+<body>
+
+<!-- el DIV = separar contenido(ya casi no se usa)(se usa mucho para contenido grafico)-->
+    <div>
+            Energy Star es un programa de la Agencia de Protección Ambiental de los Estados Unidos creado en 1992 para promover los productos eléctricos<br/> 
+            con consumo eficiente de electricidad, reduciendo de esta forma la emisión de gas de efecto invernadero por parte de las centrales eléctricas
+    </div>
+
+<!--HEADER es el reemplazo del DIV-->
+    <header>
+        <div> <img src="IMAGENES/logo.png" width="70" alt="Logotipo de Energy star">
+        </div>
+
+<!-- NAV= decirle a el navegador que existe un MENU-->  
+        <nav>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">categoria</a></li>
+          <li><a href="#">genero</a></li>
+
+        </nav>
+    </header>
+
+<!--SECTION = encarga de encerrar todo el contenido-->
+<!--WRAPPER = contenedor de todo-->
+<!--MAIN= identifica que es el contenido principal-->
+<!--ASIDE= contenido no importante para el buscador pero si para el usuario-->
+<!--ARTICLE= es para agregar articulos(google va a buscar es el contenido de ARTICLE)-->
+<!--SIDEBAR= es para colocar publicidad y mas info-->
+    <section class="wrapper">
+        <section class="main">
+            <article>
+                <h4>Titulo de pagina</h4>
+                <p>
+                Energy Star es un programa de la Agencia de Protección Ambiental de los Estados Unidos creado en 1992 para promover los productos eléctricos
+                con consumo eficiente de electricidad, reduciendo de esta forma la emisión de gas de efecto invernadero por parte de las centrales eléctricas
+                </p>
+            </article>
+        </section>
+        <aside>
+            <h5>Sidebar</h5>
+            <p>
+            La versión multimedia del manual de SEI Solar Electric Handbook: Photovoltaic Fundamentals and Applications aprovecha el poder de las nuevas tecnologías de aprendizaje para el profesional de energía solar del siglo XXI. Se puede acceder al ebook desde cualquier PC, Mac, iPad o tableta Android y a sus herramientas como ser búsqueda de texto completo, notas destacadas , marcadores, soporte para contenido multimedia, glosarios y muchas otras características interesantes. Los usuarios de PC y Mac accederán al libro electrónico desde el portal Pearson eText. Los usuarios de dispositivos móviles
+            podrán descargar la aplicación e ingresar el código de la tarjeta de acceso eText de Pearson que viene con cada libro de texto de SEI.
+            </p>
+        </aside>
+
+    </section>
+    
+<!-- FOOTER= PIE DE PAGINA (el navegador entenderia que tiene un pie de pagina)-->
+    <footer>
+        <p>
+            CucaRasta - 2020 - LEARNING
+        </p>
+
+    </footer>
+
+</body>
+
+
+
+
+</html>
