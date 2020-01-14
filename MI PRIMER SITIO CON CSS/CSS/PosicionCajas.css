@@ -1,0 +1,21 @@
+div{
+    width: 100px;
+    height:100px;
+    background-color: blue;
+    font-size: 30px;
+    float: left; /*posicionaminto "float" para diseño con columnas*/
+    /* NO SOLO SIRVE PARA COLUMNAS si no que digamos tenemos una imagen y queremos colocarle texto a sus alrededores
+    con este float tambien se hace*/
+}
+
+.caja2 {
+    position: relative; /*posicionar una caja con el = "RELATIVE"... la caja que mueva, con relative queda el espacio en blanco*/
+    /*pero si lo hacemos con "ABSOLUTE" automaticamente el espacio que queda, sube la otra caja sin dejar espacios en blanco*/
+
+    top: 0px;
+    bottom:0px ;
+    right:0px ;
+    left: 0px;
+/* estas 4 propiedades nos permite desplazar las cajas, en este caso movemos de izquierda a derecha 250px*/
+
+}

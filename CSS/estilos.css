@@ -1,0 +1,13 @@
+/*CONOZCAMOS SINTAXIS*/
+
+
+/*REGLAS CSS*/
+/*BODY=selector - BACKGROUND=elemento que queremos modificar Y luego el VALOR que le queremos dar(en este caso el color de fondo)
+COLOR: COLOR TEXTO*/
+
+    body    {background-color: black;
+            color:white;}
+
+
+/*SELECTORES CSS*/
+

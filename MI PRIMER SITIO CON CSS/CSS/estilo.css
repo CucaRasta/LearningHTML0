@@ -1,0 +1,103 @@
+
+/* SELECTOR UNIVERSAL --------------------------------------------------
+    * = PERMITE CAMBIAR TODOS LOS ASPECTOS DE TODOS LOS ELEMENTOS
+    en este caso estas 2 etiquetas son las principales*/
+/*
+*   {
+    margin: 0%;
+    padding: 0%;
+
+        } 
+
+/*SELECTOR DE ETIQUETA------------------------------------------------
+        ETIQUETA = la que queremos cambiar y su VALOR*/
+
+h1,h3 {
+    color: orange
+}
+
+h2 {
+    font-size: 35px    
+}
+
+/*SELECTOR DECENDENTES----------------------*/
+/* QUIERO CAMBIAR EL COLOR DE UNA PALABRA DENTRO DE UN parrafo largo*/
+
+p a{
+    color: rgb(255, 0, 0)
+}
+    
+
+/*COLORES------------------------------------*/
+/*color en especifico y mas usado hexadecimales y RGBA en algunas ocasiones y tiene su ventaja de opacidad*/
+
+
+h1 {
+    color:rgb(78, 78, 78)
+}
+
+
+h2 {
+    color:rgb(6, 251, 219)
+}
+
+
+/*MODELOS DE CAJA----------------------------------------*/
+/*PERMITE ESTABLECER NUESTRO DISEÑO WEB, le damos el aspecto que queramos*/
+
+/*DARLE COLOR A TODAS LAS CAJAS*/
+div {
+    
+    width: 1000px;
+    height: 500px;
+    color:rgb(0, 0, 0);
+    background: yellow;
+    margin: 50px 40px;
+    padding: 10px 50px;
+    border: 10px solid #ffffff
+}
+
+
+
+/*DARLE COLOR A UNA CAJA EN ESPECIAL*/
+/*LLAMO EL NOMBRE DE LA CLASE Y LE DOY VALORES*/
+/*ESTE ES EL MARGEN EXTERIOR*/
+/*DARLE MARGEN A EL INTERIOR DE LAS CAJAS con el = PADDING*/
+/*DARLE UN BORDE A LAS CAJAS con el = BORDER Y tipo de borde con color en este caso solido negro con el =SOLID*/
+/*busque tipos de bordes en css en google y le das mas personalizacion*/
+
+.green {
+    width: 500px;
+    background:rgb(5, 243, 231);
+    padding: 10px 30px;
+    border: 10px double #000000;
+}
+
+.blanco  {
+    color: rgb(204, 204, 204)
+}
+
+
+/*POSICIONAMIENTO DE LA CAJA*/
+
+
+
+
+
+
+/*FONDOS--------------------------------------------------------------------------------*/
+/*
+body {background-color: black;
+    color:white;
+        }
+
+/*FONDO CON IMAGEN*/
+/*CON (../) le indicamos que se devuelva una carpeta*/
+
+body {
+    background-image: url(../IMAGENES/fondo-pantalla.jpg);
+    background-repeat:repeat-x; /*para que el fondo  se repita y lo alargue hacia eje x*/ 
+    /*background-attachment: fixed; /* para que cuando bajemos con el scroll el contenido baje y el fondo se quede quieto*/
+    background-position: center 60px
+}
+
