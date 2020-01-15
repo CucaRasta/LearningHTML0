@@ -1,0 +1,26 @@
+
+
+/*PROPIEDADES TAMBIEN SE LE APLICAN LOS MODELOS DE CAJA Y ALGUNAS MAS DE EFECTOS*/
+/*Hacemos un contendedor para la imagen y se empiece a ver diseño*/
+/*en este caso con DIV encerramos la imagen*/
+/*en el contenedor TRABAJAR CON VALORES % para llenar toda la pagina, NO CON px para evitar problemas de diseño*/
+div {
+    background-color: darkgrey;
+    width: 100%;
+    
+
+}
+
+img {
+
+    width: 700px; /*tamaño imagen*/
+    height: auto;
+    margin:auto; /*centrar cualquier imagen pero con un DISPLAY:BLOCK(porque nuestra imagen esta siempre en INLINE*/
+    display:block;
+    border-radius: 50%; /*para redondear imagenes*/
+    /*box-shadow: 5px 5px 0px #000000; /*darle sombra a el redondeo en este caso de la imagen*/
+    padding: 10px; /*le damos es un espaciado a la imagen, pero si le agregamos un borde*/
+    border:5px solid #8f8888; /*y con esto obtenemos com ouna especie de MARCO DE IMAGEN O BORDE*/
+
+}
+

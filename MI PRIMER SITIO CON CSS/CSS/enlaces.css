@@ -1,0 +1,56 @@
+
+a {
+    font-size: 20px;/*TAMAÑO LETRA*/
+    text-decoration: none; /*quitar subrayado*/
+    margin: 10px 20px 10px 0px;/*MARGEN DEL TEXTO*/
+
+
+/*para darle forma de BOTON A LOS ENLACES---------------------*/
+    padding: 10px 20px; /*da  un espaciado entre el texto y la caja*/
+    background-color: deepskyblue;/*color de fondo de forma caja*/
+    display: inline-block;/*para que quede que bloque*/
+    box-shadow: 0px 5px 0px #000000;  /*darle una sombra o raya dentro del fondo*/
+
+}
+
+/*AGREGAR SEUDOCLASE forma de BOTON A LOS ENLACES----------------*/
+
+a:hover {
+
+    box-shadow: 0px 2px 0px #000000; /*la sombra se hace mas pequeña simulando click a el boton*/
+}
+
+a:active{
+    box-shadow:none; /* aqui le quitamos la sombra para cuando de click desaparezca y parezca que esta presionando boton*/
+}
+
+
+/*AGREGAR SEUDOCLASE 1*/
+/*los enlaces tiene 4 estados, cuando los visitamos ya quedan de un color- cuando no hemos visitado estan de otro color-
+cuando le damos click cambia de color-y cuando nos paramos en el muestra el enlace*/
+/*
+a:link {
+    color: chocolate;   /*para enlaces que no han sido visitados*/
+/*
+}
+
+a:hover {
+    text-decoration: underline; /* cuando pasemos por encima del enlace se subraye*/
+/*    background-color: black;/* darle un color de fondo*/
+  /*  color: aqua /*Darle color cuando pasemos por encima del enlace*/
+/*
+}
+
+a:active {
+    background-color: rgb(0, 255, 85); /*cuando demos clic cambie de color el fondo*/
+
+/*
+}
+
+
+a:visited{
+
+    color: deeppink; /* para los enlaces que ya hemos visitado*/
+/*
+}
+

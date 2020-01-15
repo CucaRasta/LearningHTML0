@@ -1,0 +1,23 @@
+
+
+table {
+    border: 2px solid #000000;  /*le damos un borde exterior*/
+    border-collapse:collapse;
+}
+
+table td {
+
+    border: 2px solid #000000;
+    padding: 20px; /*para cambiar el tamaño de la tabla*/
+}
+
+table tr:hover{ /*el usuario puede navegar horizontalmente*/             
+    background-color: blueviolet;
+}
+
+/*en CSS no se puede hacer verticalmente pero hay un truco que seria el siguiente*/
+/*para simular el navegado VERTICALMENTE*/
+table td:hover{
+    background-color: black;
+    color: aliceblue;
+}

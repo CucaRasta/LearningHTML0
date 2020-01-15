@@ -1,0 +1,25 @@
+/*en los titulos H1 y demas AUTOMATICAMENTE se coloca en NEGRITA. Si queremos quitarlo hacemos lo siguiente*/
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+    background-color: cadetblue;
+
+}
+
+/*CAMBIAR FUENTE DEL TEXTO*/
+
+p {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        /*font-weight: bold; colocar en negritas*/
+        text-align: left; /*para CENTRAR TEXTO*/
+        line-height: 30px; /*dar altura entre textos*/
+        text-decoration: underline; /*para colocar subrayado de textos*/
+        text-transform: capitalize; /*para colocar cada palabra que empiece en mayuscula*/
+        /*letter-spacing: 30px;  espaciado entre letras ...yo lo utilizaria para sopa de letras XD*/
+        /*text-shadow: 5px 5px 5px #000000  dar sombreado a el texto y color de sombra*/
+        
+}
+
+
+

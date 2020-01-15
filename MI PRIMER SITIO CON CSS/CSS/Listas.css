@@ -1,0 +1,52 @@
+/*POCA PORPIEDADES PARA LISTAS*/
+
+/*
+ul {
+    /*para que los punticos de todas las listas sean iguales.*/
+/*    list-style: square;
+    list-style-position:inside; /*coloca las listas mas a la derecha o adentro*/
+/*}
+/*
+ol { /*en OL (listas ORDENADAS) se auto rellena con numeros*/
+    /*le agregamos un 0 desde el cominezo para que esteticamente cuando llegue a 10 no se vea la diferencia en los numeros*/
+ /*   list-style-type: decimal-leading-zero;
+    /*SI queremos LETRAS en la lista y no numeros*/
+ /*   list-style-type: upper-latin;
+
+
+
+}
+*/
+
+/*EMPEZAR A DARLE DISEÑO A EL MENU*/
+
+.MENU {
+    width: 100%;
+    background-color: rgb(0, 0, 0); 
+    list-style:none; /*para quitar punticos de las listas*/
+    margin:0; /*quitar margen*/
+    padding: 0;  /*quitar espacios*/
+
+}
+
+/*MODIFICAR ELEMENTOS QUE ESTAN DENTRO DEL MENU*/
+.MENU li {
+    display: inline-block; /*QUE ES EL MENU UNO A EL LADO DEL OTRO*/
+
+}
+
+/*MODIFICAR ELEMENTROS QUE ESTAN DENTRO DEL li que ESTAN DENTRO DEL menu*/
+.MENU li a {
+    padding: 10px 20px; /*Para que el menu crezca hacia los lados con espacios--ESTE PADDING DEBE IR SIEMPRE AQUI*/
+    /*PORQUE CUANDO SE NAVEGUE EL COLOR DEL CUADRO VA HACER CHIQUITO Y SE VA A VER FEO*/
+    display: inline-block; /*se arregla y crece hacia abajo tambien*/
+    color:#ffff ; /*color letras blanco*/
+
+}
+
+/*SE AGREGA UNA SEUDOCLASE*/
+.MENU li a:hover {
+    background-color: darkgrey;
+    color:#ffff; 
+/*se obtiene navegacion con color*/
+}
