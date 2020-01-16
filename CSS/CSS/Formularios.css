@@ -1,0 +1,47 @@
+form {
+
+    width: 25%;
+    border: 1px solid #000000;
+    margin: 20px;
+    padding: 20px;
+}
+
+label {
+    font-size: 12px; /*hace que el formulario sea mas pequeño,menos feo*/
+    display: block; /*para que se organice en bloque de forma ordenada hacia abajo*/
+}
+
+input,textarea {
+    margin-bottom: 20px; /*espaciado entre las casillas*/
+    width: 100%; /*que lleneel 100% cuadro*/
+    padding: 10px; /*espaciado entre texto y casilla*/
+    box-sizing: border-box; /* que no se salga del borde las casillas*/
+    border: 1px solid #7e7e7e; 
+
+}
+
+textarea { /*si queremos darle una direcion a el cuadro del mensaje para donde crezca*/
+    min-height: 100px;
+    max-height: 300px;
+    min-width:  100px;
+    max-width:  300px;
+}
+
+input:focus {
+
+    border: 1px solid #2b7cc9; /*cuando el usuario le de click se coloque azul la casilla*/
+
+}
+
+/*que todos los inputs con atriuto TYPE*/
+input[type="submit"] {
+    margin-bottom: 0px; /*quitar ese espacio entre boton y abajo*/
+    background-color: #2b7cc9; /*darle color a el boton*/
+    color: whitesmoke; /*letra color*/
+    border: none; /*sin borde*/
+}
+/*le damos mas forma de boton*/
+input[type="submit"]:hover {  /* mas sensacion al pararnos en el boton*/
+    background-color: #238ef1; /*un color mas claro que el fondo*/
+    cursor: pointer;/*para que el cursor cambie al pararnos en el boton*/
+}

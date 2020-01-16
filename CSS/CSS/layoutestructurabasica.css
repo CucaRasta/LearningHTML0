@@ -1,0 +1,93 @@
+/*EMPEZAMOS A DAR DISEÑO*/
+
+/*SELECTOR UNIVERSAL Y DECIRLE QUE TODO TENGA ESTO*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(224, 224, 224);
+}
+
+header, .main, footer {
+    /*con diseño adaptable o responsive*/
+
+    width: 90%;
+    /*para no tener problemas de pantallas*/
+    max-width: 1000px;
+    margin: 20px auto;
+    /*margen en c/u de los elementos*/
+}
+
+header nav {
+    /*color para el menu*/
+    background-color: dodgerblue;
+    overflow: hidden;
+
+}
+
+header nav ul {
+    list-style: none;
+    /*quitamos puntos de listas*/
+}
+
+header nav ul li {
+    /*para que los navegadores se organicen horizontalmente*/
+    /*PROBLEMA:con esto el fondo del menu desaparece*/
+    float: left;
+}
+
+/*SOLUCION FONDO MENU*/
+/*AGREGAR: "overflow:hidden;" a el HEADER NAV */
+/*este sirve para 2 cosas: 
+1.OCULTAR CONTENIDO - que sobra
+2.LIMPIA LOS FLOAT */
+
+header nav ul li a {
+    /*modificar enlaces*/
+
+    padding: 10px 20px;
+    display: block;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    /*aplicar efecto*/
+    background-color: rgb(99, 172, 231);
+}
+
+.main .articles {
+    width: 68.5%;
+    margin-right: 1.5%;
+    float: left;
+    /*lo que hace es correr columnas o contenedor hacia izquierda*/
+    
+}
+
+
+.main .articles article { /*lo que hace es agregar margenes a cada articulo*/
+    padding: 20px;
+    background-color: white;
+    margin-bottom: 20px;
+
+}
+
+aside {
+    width: 30%;
+    background-color: sandybrown;
+    float: left;
+    padding: 20px;
+    box-sizing: border-box; /*para que no se corra*/
+
+}
+
+footer {
+
+    background-color: black;
+    color:white;
+    clear: both; /*limpiar los float left*/
+    padding: 10px 0px; /* dar margen*/
+    text-align: center;
+}
